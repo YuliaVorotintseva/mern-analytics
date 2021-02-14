@@ -1,4 +1,5 @@
 import React from 'react'
+import './LinksPage.css'
 
 export const LinksPage = () => {
   return (
