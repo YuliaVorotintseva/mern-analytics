@@ -1,5 +1,3 @@
-const { request } = require("express");
-
 const { Schema, model, Types } = require('mongoose')
 
 const schema = new Schema({
