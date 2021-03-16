@@ -2,9 +2,9 @@ import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import { useRoutes } from './routes';
 import { useAuth } from './hooks/auth.hook';
-import 'materialize-css'
 import { AuthContext } from './context/auth.context';
 import { Navbar } from './components/navbar';
+import 'materialize-css'
 
 function App() {
   const { token, userId, login, logout } = useAuth()
