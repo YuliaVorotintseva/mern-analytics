@@ -8,7 +8,8 @@ router = Router()
 
 router.post('/generate', auth, async (request, response) => {
   try {
-    const baseUrl = config.get("baseUrl")
+    //const baseUrl = config.get("baseUrl")
+    const baseUrl = 'http://localhost:5000'
     const { from } = request.body
 
     const existing = await Link.findOne({ from })
